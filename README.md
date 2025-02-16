@@ -16,3 +16,4 @@ python split-excel-to-csv.py prayer-time-dresden.xlsx
 
 The output csv files will be in `mawaqit-<year>`.
 
+Disclaimer: Script generated mostly via ChatGPT.
