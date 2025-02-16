@@ -2,6 +2,12 @@
 
 This script reads the excel file exported from [Presidency of Religious Affairs](https://namazvakitleri.diyanet.gov.tr/) for a year, then prepares the 12 csv files for each month in the format which can be uploaded to [Mawaqit Admin panel](https://mawaqit.net/en/backoffice/mosque) to set a mosque's prayer times.
 
+The script also removes day light saving present in the excel file, as the csv expected by Mawaqit needs to be without daylight saving in the prayer times.
+
+![mawait-warning](images/warning-mawaqit.png)
+
+## Run Script
+
 To run the script first install the required dependencies:
 
 ```shell
